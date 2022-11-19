@@ -1,0 +1,282 @@
+@font-face {
+	font-family: Larsseit;
+	src: url(../fonts/Larsseit.woff2) format("woff2"),
+	url(../fonts/Larsseit.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Larsseit;
+	src: url(../fonts/Larsseit-Medium.woff2) format("woff2"),
+	url(../fonts/Larsseit-Medium.woff) format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: Larsseit;
+	src: url(../fonts/Larsseit-Bold.woff2) format("woff2"),
+	url(../fonts/Larsseit-Bold.woff) format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+.body {
+	font-family: Larsseit;
+}
+.start__block {
+	max-width: 1350px;
+}
+.thriv {
+	font-size: 24px;
+	line-height: 27px;
+	letter-spacing: -0.035em;
+	color: #62D0DF;
+	text-align: center;
+	margin-bottom: 54px;
+}
+.help {
+	font-size: 48px;
+	line-height: 53px;
+	letter-spacing: -0.035em;
+	color: #22356F;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.start__block p:not(:last-child) {
+	font-size: 24px;
+	line-height: 42px;
+	color: #22356F;
+	padding: 0px 450px 0px 450px;
+	margin-left: -255px;
+	margin-bottom: 73px;
+}
+.who {
+	background: #F9B640;
+	width: 150px;
+	height: 50px;
+	line-height: 23px;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	border: 1px solid rgba(39, 34, 34, 0.555);
+	margin: 0 36px 75px 195px;
+}
+.wholy {
+	line-height: 23px;
+	letter-spacing: 0.1em;
+	color: #FAB63E;
+	width: 150px;
+	height: 43px;
+} 
+.why__block {
+	max-width: 1437px;
+	background: #62D0DF url("../img/christopher-campbell-40367.jpg") right top / contain no-repeat;
+}
+.why {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 27px;
+	letter-spacing: -0.006em;
+	color: #FFFFFF;
+	padding: 151px 0px 75px 178px;
+}
+.why__block p {
+	font-size: 24px;
+	line-height: 35px;
+	color: #FFFFFF;
+	padding: 0px 500px 92px 178px;
+	margin-right: 181px;
+	margin-bottom: 150px;
+}
+span {
+	color: #FFFFFF;
+	font-size: 20px;
+   line-height: 29.3px;
+}
+.text__block {
+	margin-bottom: 70px;
+}
+.about {
+	line-height: 23px;
+	letter-spacing: 0.06em;
+	color: #22356F;
+	margin-left: 106px;
+}
+.text__block p {
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 0.005em;
+	color: #22356F;
+	padding: 0px 424px 0px 424px;
+	margin-top: -25px;
+}
+.we-can {
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: rgba(34, 53, 111, 0.5);
+	margin-bottom: 24px;
+}
+.backg__container {
+	max-width: 1440px;
+	margin-bottom: 120px;
+}
+.backg__container p {
+	font-size: 32px;
+	line-height: 34px;
+	letter-spacing: -0.006em;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 92px;
+	text-decoration: overline;
+}
+.weight {
+	background-color: #FFE2DE;
+	width: 330px;
+	height: 330px;
+	display: inline-block;
+}
+.running {
+	background-color: #C4E769;
+	width: 330px;
+	height: 330px;
+	display: inline-block;
+}
+.pumping {
+	background-color: #62D0DF;
+	width: 330px;
+	height: 330px;
+	display: inline-block;
+}
+.iron {
+	background-color: #0052C1;
+	width: 330px;
+	height: 330px;
+	display: inline-block;
+}
+.backgly {
+	margin-bottom: 22px;
+}
+.backgly p {
+	font-size: 32px;
+	line-height: 34px;
+	letter-spacing: -0.006em;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 126px;
+	text-decoration: overline;
+}
+.physical {
+	background: #22356F;
+	width: 445px;
+	height: 445px;
+	display: inline-block;
+}
+.mental {
+	background: #0052C1;
+	width: 445px;
+	height: 445px;
+	display: inline-block;
+}
+.nutrition {
+	background: url("../img/joanna-kosinska-340748.jpg");
+	width: 445px;
+	height: 445px;
+	display: inline-block;
+}
+.gymnastics {
+	background: #62D0DF;
+	width: 445px;
+	height: 445px;
+	display: inline-block;
+}
+.crossfit {
+	background: #DEE1FF;
+	width: 445px;
+	height: 445px;
+	display: inline-block;
+}
+.aerobics {
+	background: #8F00FF;
+	width: 445px;
+	height: 445px;
+	display: inline-block;
+}
+.content__block {
+	margin-bottom: 40px;
+}
+.content__block p {
+	line-height: 25px;
+	letter-spacing: -0.03em;
+	color: rgba(34, 53, 111, 0.5);
+	padding-left: 105px;
+	padding-right: 77px;
+}
+.list {
+	font-size: 28px;
+	line-height: 33px;
+	letter-spacing: -0.03em;
+	color: #22356F;
+	padding: 55px 0px 0px 105px;
+	margin-bottom: 28px;
+}
+.plans {
+	display: inline-block;
+	width: 445px;
+	height: 240px;
+}
+.loss {
+	display: inline-block;
+	width: 445px;
+	height: 240px;
+}
+.peace {
+	display: inline-block;
+	width: 445px;
+	height: 240px;
+}
+.training {
+	display: inline-block;
+	width: 445px;
+	height: 240px;
+}
+.balance {
+	display: inline-block;
+	width: 445px;
+	height: 240px;
+}
+.cardio {
+	display: inline-block;
+	width: 445px;
+	height: 240px;
+}
+img {
+	max-width: 100%;
+}
+.textly__block {
+	display: inline-block;
+}
+h6.list {
+	line-height: 12px;
+	letter-spacing: 0.06em;
+	color: #22356F;
+}
+.elaboration__block::after {
+	content: "(";
+}
+.elaboration__block {
+	background-color: #8F00FF;
+	display: none;
+}
+.elaboration__block:target {
+	display: block;
+}
+.elaboration {
+	background-color: rgb(19, 151, 41);
+	padding: 20px;
+	color: #FFF;
+	opacity: 0;
+	visibility: hidden;
+}
+.elaboration__block:hover .elaboration {
+	opacity: 1;
+	visibility: visible;
+}
